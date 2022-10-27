@@ -5,34 +5,33 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/fondo_azul"
-    tools:context=".RegistroActivity">
+    tools:context=".RegistrarUActivity">
 
     <TextView
-        android:id="@+id/txtRegistro"
+        android:id="@+id/txtRegistrar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/registro"
         android:layout_marginTop="10dp"
         android:textColor="@color/black"
         android:textSize="25sp"
         android:textStyle="bold"
+        android:text="@string/registrar_usuario"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imgLogo"
+        android:id="@+id/imgLogoR"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_marginTop="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtRegistro"
+        app:layout_constraintTop_toBottomOf="@+id/txtRegistrar"
         android:src="@drawable/logo1" />
 
     <EditText
-        android:id="@+id/ertxtNombre"
+        android:id="@+id/rtxtNombre"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="18dp"
@@ -50,10 +49,10 @@
         android:textColorHint="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgLogo" />
+        app:layout_constraintTop_toBottomOf="@+id/imgLogoR" />
 
     <EditText
-        android:id="@+id/ertxtApellidoP"
+        android:id="@+id/rtxtApellidoP"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="18dp"
@@ -71,10 +70,10 @@
         android:textColorHint="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ertxtNombre" />
+        app:layout_constraintTop_toBottomOf="@+id/rtxtNombre" />
 
     <EditText
-        android:id="@+id/ertxtApellidoM"
+        android:id="@+id/rtxtApellidoM"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="18dp"
@@ -92,10 +91,11 @@
         android:textColorHint="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ertxtApellidoP" />
+        app:layout_constraintTop_toBottomOf="@+id/rtxtApellidoP" />
+
 
     <EditText
-        android:id="@+id/ertxtEmail"
+        android:id="@+id/rtxtEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="18dp"
@@ -113,10 +113,10 @@
         android:textColorHint="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ertxtApellidoM" />
+        app:layout_constraintTop_toBottomOf="@+id/rtxtApellidoM" />
 
     <EditText
-        android:id="@+id/ertxtPassword"
+        android:id="@+id/rtxtPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="18dp"
@@ -133,10 +133,10 @@
         android:textColorHint="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ertxtEmail" />
+        app:layout_constraintTop_toBottomOf="@+id/rtxtEmail" />
 
     <Button
-        android:id="@+id/btnRegistro"
+        android:id="@+id/btnRegistroU"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="18dp"
@@ -145,14 +145,14 @@
         android:textStyle="bold"
         android:textSize="20dp"
         android:textColor="@color/purple_500"
-        android:text="@string/registrar"
+        android:text="@string/registrar_usuario"
         android:background="@drawable/button_rounded"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ertxtPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/rtxtPassword" />
 
     <Button
-        android:id="@+id/btnCancelar"
+        android:id="@+id/btnCancelarU"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="18dp"
@@ -165,9 +165,5 @@
         android:background="@drawable/button_rounded"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnRegistro" />
-
-
-
-
+        app:layout_constraintTop_toBottomOf="@+id/btnRegistroU" />
 </androidx.constraintlayout.widget.ConstraintLayout>

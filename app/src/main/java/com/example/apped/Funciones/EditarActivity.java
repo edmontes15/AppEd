@@ -22,7 +22,6 @@ public class EditarActivity extends AppCompatActivity implements View.OnClickLis
     int id=0;
     Usuario u;
     dUsuario dao;
-    Intent x;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
