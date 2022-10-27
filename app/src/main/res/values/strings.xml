@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">AppEd</string>
+    <string name="login">LOGIN</string>
+    <string name="inicia_sesion_para_continuar">Inicia Sesion para continuar</string>
+    <string name="password">Password</string>
+    <string name="e_mail">E-mail</string>
+    <string name="no_tienes_cuenta">¿No tienes cuenta?</string>
+    <string name="registrate">Registrate</string>
+    <string name="olvido_su_contrase_a">¿Olvido su contraseña?</string>
+    <string name="registro">REGISTRO</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido_paterno">Apellido paterno</string>
+    <string name="apellido_materno">Apellido Materno</string>
+    <string name="registrar">Registrar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="editar">Editar</string>
+    <string name="borrar">Borrar</string>
+    <string name="salir">Salir</string>
+    <string name="actualizar_datos">Actualizar Datos</string>
+    <string name="actualizar">Actualizar</string>
+    <string name="mostrar_dato">Mostrar Dato</string>
+    <string name="mostrar">Mostrar</string>
+    <string name="usuario">Usuario</string>
+    <string name="nombre1">Nombre:</string>
+    <string name="email">Email:</string>
+    <string name="buscar">Buscar</string>
+</resources>
